@@ -47,7 +47,7 @@ def updateOled():
 				draw.text((x*11+3, y*5+1), "*", fill="white")
 		for x in range(0, 5):
 			for y in range(0, 4):
-				draw.text((x*11+8, y*5+3), "*", fill="white")
+				draw.text((x*11+9, y*5+3), "*", fill="white")
 
 def stop():
 	global stopNow
